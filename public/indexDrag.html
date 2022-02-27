@@ -20,8 +20,12 @@
             </ul>
         </nav>
 
-        <div id="myGame">
-            <script type = "text/javascript" src = "./src/phaserGame.js"></script>
+        <div style="display:flex;width:50%">
+
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <br>
+        <img id="drag1" src="./assets/logo.png" draggable="true" ondragstart="drag(event)" style="width:5rem;height:5rem;">
+
         </div>
     </body>
 </html>
