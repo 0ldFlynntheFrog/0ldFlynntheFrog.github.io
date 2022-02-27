@@ -105,7 +105,30 @@
     </style>  
 </head>
 <body>
+    <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width",initial="">
+        <title>Ambivalence</title>
+        <link rel= "stylesheet" type="text/css" href="./style.css">
+        <script src="https://cdn.jsdelivr.net/npm/phaser@3.15.1/dist/phaser-arcade-physics.min.js"></script>
+        <script src="./src/game.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="constantTop">
+            <header id="titleTop">Learn to Live</header>
+            <img src="./assets/logo.png" alt="Skull at the top of the screen" id="topSkull"> <!--not in there yet-->
+        </div>
 
+        <nav id="playAndAbout">
+            <ul>
+                <li><button onclick="beginGame()">Game</button></li> <!--FOR CLICKING TO BEGIN-->
+                <li><a href="aboutMe.html">About</a></li>
+            </ul>
+        </nav>
+
+        <div id="myGame">
+            
     <h2>Anger</h2>
     <div id="startSpace">
         <button 	
@@ -239,5 +262,6 @@
         }
 
 </script>
-</body>
+        </div>
+    </body>
 </html>
